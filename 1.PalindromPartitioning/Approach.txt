@@ -1,0 +1,11 @@
+Base logic : Get a substring out and check if palindrome or not if yes then that is one part , store in sub array and , do recusrive call with increased index and present subarray , again cut substring and check, if size reached then base case so come back , do a pop up  to remove the part from subarray and repeat
+
+Learning :
+
+1. how recursion behaves inside for loop
+2. Steps:
+a. make a cut, get the stringpart out
+b. check if string part is pal
+c.if yes then push string part to part ans
+d.recursive call with index plus 1 and present part ans
+e.pop from part ans after recursive call
