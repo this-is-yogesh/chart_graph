@@ -7,5 +7,5 @@ Learning :
 a. make a cut, get the stringpart out
 b. check if string part is pal
 c.if yes then push string part to part ans
-d.recursive call with index plus 1 and present part ans
+d.recursive call with index plus 1 and present part answer
 e.pop from part ans after recursive call
