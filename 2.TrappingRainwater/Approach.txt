@@ -5,6 +5,6 @@ Base logic : Standing on any building, if we know the  highest building to left 
 Steps:
 1.Find prefix max for every builidng
 
-2.Find suffix max for every building
+2.Find suffix max for every Building
 
 3.Calculation of rainwater : checking if current builidng is less than the its prefix max and less than its suffix max and then ( min height between the right and left building - the current height of building )
