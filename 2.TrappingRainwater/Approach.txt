@@ -1,0 +1,10 @@
+Base logic : Standing on any building, if we know the  highest building to left and the highest builidng on right,that height will help to store max water,  the min of two will be height till which water will be stored, above than it will flow
+
+5 3 7 , so will water will store till min ( 5,7 ) that is 5 , and total storage will be 5 -curr height = 2 hence 2 unit stored
+
+Steps:
+1.Find prefix max for every builidng
+
+2.Find suffix max for every building
+
+3.Calculation of rainwater : checking if current builidng is less than the its prefix max and less than its suffix max and then ( min height between the right and left building - the current height of building )
