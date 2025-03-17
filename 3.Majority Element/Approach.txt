@@ -1,0 +1,3 @@
+Steps:
+
+Base Logic : if you have 11 elements then atleast one element will be 6 and other wil be 5 always, so if 5 and 5 cancels out then one will be left and that one is element
