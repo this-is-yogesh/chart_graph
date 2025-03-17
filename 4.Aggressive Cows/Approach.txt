@@ -1,0 +1,5 @@
+Basic logic : Getting the min and max distance possbile, min distance between two cows will always be 1, max  distance will be the last value distance - min distance
+
+Sort the distances so that we can put the cows on them 
+
+point to note here is distance will be all the numbers from mindistance(1) to maxDistance and we might get mid which is not present in originalArray, that is not the point, when we will find if mid is possible or not, we will send this mid ( not present in array and check for the current - lastTallesElement ≥ mid ,if true then that is mid so mid need be in the array, we are comparing the distance possbile with mid to check it
