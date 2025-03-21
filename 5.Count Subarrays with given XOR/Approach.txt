@@ -13,4 +13,12 @@ and now we will set the currentPrefixXOR and its frequency to map and this might
 ### **Key Formula:
 Main idea -** prefixXOR[tillCurrentIndex]⊕prefixXOR[tillCUrrentIndex-1]=targetXOR
 
+Rearrange:
 
+prefixXOR[tillCUrrentIndex-1]=prefixXOR[tillCurrentIndex]⊕targetXOR
+
+Here’s what it means:
+
+- `prefixXOR[tillcurrentindex]` → XOR from the start (`index 0`) to the current index `j`
+- `prefixXOR[tillcurrentindex-1]` → XOR from the start to one index before `j`
+- If `prefixXOR[tillcurrentindex-1]` exists in the map, it means there exists a subarray ending at “currentindex” whose XOR is exactly `targetXOR`.
