@@ -1,2 +1,6 @@
 Basic logic for bettte apparoch, having a variable before start of inner loop and calcualing sumXOR of every element with that varialble, like this we will get all the xors from j = i → length-1 and we will just increment the ans with 1 if any of these sum is same as targetXor, we will do this for n times and so total TC is O(n2) and space is O(1) as using only contants to store
 
+Basic logic for optimal approach :
+
+1.Having a map which will store key value of key being prefixXor and value being the number of times it has occured before, first pair will be 0,1
+2.first we will calc currentprefixxor by prevprefixxor xor current element
