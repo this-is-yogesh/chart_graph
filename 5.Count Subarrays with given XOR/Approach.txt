@@ -5,7 +5,12 @@ Basic logic for optimal approach :
 1.Having a map which will store key value of key being prefixXor and value being the number of times it has occured before, first pair will be 0,1
 2.first we will calc currentprefixxor by prevprefixxor xor current element
 
-
 and then will do  targetXOR xor currrentprefixXor, we will get a value 
 if that value is present in map then we incr answer because that value is the xor ending before current index , and if that is present means a prefixxor exist in map with which if we will do xor of the currentPrefixxor we will get exactly targetXor
+
+and now we will set the currentPrefixXOR and its frequency to map and this might become a prefixxor with which if we will do xor of the currentprefixxor in future, we will get exactly target xor
+
+### **Key Formula:
+Main idea -** prefixXOR[tillCurrentIndex]⊕prefixXOR[tillCUrrentIndex-1]=targetXOR
+
 
