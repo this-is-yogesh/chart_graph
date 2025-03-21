@@ -1,0 +1,2 @@
+Basic logic for bettte apparoch, having a variable before start of inner loop and calcualing sumXOR of every element with that varialble, like this we will get all the xors from j = i → length-1 and we will just increment the ans with 1 if any of these sum is same as targetXor, we will do this for n times and so total TC is O(n2) and space is O(1) as using only contants to store
+
