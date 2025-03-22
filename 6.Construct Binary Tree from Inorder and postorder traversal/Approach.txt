@@ -8,3 +8,11 @@ last element of every postorder is the root element
 
 and leftof that root element in inorder will give us left subtreee and right of that element will give us right subtree
 
+Approach:
+
+keep a map to keep track of element in inorder with its index
+
+pick the last element of postorder array, which will be root which is 3 here,
+
+to construct left subtree - to track  start of leftsubtree will , instart variable initialize with 0, to keep track of end of leftsubtree , index of root in inorder - 1, inorder will be (0,0) = [9], we will also need a postorder to take root from that, postorder start index will be 0 initialize, and end will start + index of root in order -1=(0,0) =[9] 
+
