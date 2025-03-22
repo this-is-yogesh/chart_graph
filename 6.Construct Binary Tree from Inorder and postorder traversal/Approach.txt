@@ -2,3 +2,9 @@ Pre, Post or In is basically the position of root node in tree
 
 Basic logic :
 `inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]`
+
+
+last element of every postorder is the root element
+
+and leftof that root element in inorder will give us left subtreee and right of that element will give us right subtree
+
