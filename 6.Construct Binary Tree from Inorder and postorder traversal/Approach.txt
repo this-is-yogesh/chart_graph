@@ -16,3 +16,4 @@ pick the last element of postorder array, which will be root which is 3 here,
 
 to construct left subtree - to track  start of leftsubtree will , instart variable initialize with 0, to keep track of end of leftsubtree , index of root in inorder - 1, inorder will be (0,0) = [9], we will also need a postorder to take root from that, postorder start index will be 0 initialize, and end will start + index of root in order -1=(0,0) =[9] 
 
+to construct right subtree.- to track start of rightsubtree, right will be instart will be index of root in inorder + 1,inend will be length of inorder -1, inorder will be (2,4) = [15,20,7],we will also need a postorder to take root from that, postorder start index will be start + index of root in order, end will be posend -1 = (1,3) =[15,7,20]
