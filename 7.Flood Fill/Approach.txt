@@ -1,4 +1,4 @@
 Basic logic : Depth first search
 
 
-We will recursively check for all the 4 direction, 
+We will recursively check for all the 4 direction, with a condiition that we do not exceed the row or col, the new row and col has initialcolor and new row col doesnt have new color
