@@ -1,4 +1,4 @@
 Basic logic : Depth first search
 
 
-We will recursively 
+We will recursively check for all the 4 direction, 
